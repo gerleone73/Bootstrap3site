@@ -54,6 +54,25 @@ blockquote{
   border-left: 0px solid grey;
 }
 
+.navbar-inverse .navbar-nav>li>a {
+  color: #9d9d9d!important;
+  background: #343434!important;
+  border-left: 1px solid #9d9d9d!important;
+  border-right: 1px solid #9d9d9d!important;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: white!important;
+  background: black!important;
+}
+
+#downloadBtn{
+  margin-left:1em;
+}
+
+ul li a:hover{
+  color: white;
+}
 
 .centered {
   position: absolute;
@@ -67,15 +86,12 @@ blockquote{
   transform: translate(-50%, -50%);
 }
 
-#center{
-  margin-left: 10px;
-}
+
 
 .page-header{
   padding-top: 50px;
   border:none;
 }
-
 
 .foot{
   margin-top: 2em;
@@ -86,17 +102,12 @@ blockquote{
 .hrspace{
   visibility: hidden
 }
-/*
-.jumbotron, .bg{
-  background-color: #BBCCB5;
+
+@media (max-width: 770px) {
+
+#downloadBtn{
+  display:none;
 }
-
-.navbar-inverse .navbar-brand{
-  color:#BBCCB5;
-}
-
-
-
 
 
 /* Landscape phones and smaller */
@@ -106,8 +117,9 @@ blockquote{
 }
 
 
+
 .page-header{
-  padding-top: 0;
+  padding-top: 50px;
 }
 
 }
