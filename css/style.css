@@ -8,11 +8,17 @@ height:100%;
 }
 
 .bg{
-  padding-top: 200px;
+  padding-top: 20px;
   padding-bottom:200px;
 }
-section{
-  padding-top: 200px;
+.feed-padding{
+  padding-bottom: 2em;
+}
+
+.round{
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .jumbotron {
@@ -38,6 +44,15 @@ min-height:100%;
 margin-top: -30px;
 }
 
+blockquote p{
+  padding-top: 20px;
+}
+
+blockquote{
+  border-left: 0px solid grey;
+}
+
+
 .centered {
   position: absolute;
   top: 50%;
@@ -62,10 +77,13 @@ margin-top: -30px;
 
 .foot{
   margin-top: 2em;
-  background-color: #EEE;
+  background-color:#1F0F1A;
+  color:linen;
 }
 
-
+.hrspace{
+  visibility: hidden
+}
 /*
 .jumbotron, .bg{
   background-color: #BBCCB5;
