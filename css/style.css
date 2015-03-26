@@ -1,0 +1,93 @@
+
+body{
+  padding-top:40px;
+}
+
+html,body{
+height:100%;
+}
+
+.bg{
+  padding-top: 200px;
+  padding-bottom:200px;
+}
+section{
+  padding-top: 200px;
+}
+
+.jumbotron {
+background-image: url("../highway.jpg");
+no-repeat   center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+min-height:100%;
+color:linen;
+}
+
+.feedbg{
+  background-color: #1F0F1A;
+  color:linen;
+  no-repeat   center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+min-height:100%;
+margin-top: -30px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width:100%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+#center{
+  margin-left: 10px;
+}
+
+.page-header{
+  padding-top: 50px;
+  border:none;
+}
+
+
+.foot{
+  margin-top: 2em;
+  background-color: #EEE;
+}
+
+
+/*
+.jumbotron, .bg{
+  background-color: #BBCCB5;
+}
+
+.navbar-inverse .navbar-brand{
+  color:#BBCCB5;
+}
+
+
+
+
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+#spacefeed{
+  padding-bottom: 0px;
+}
+
+
+.page-header{
+  padding-top: 0;
+}
+
+}
+
+
+
