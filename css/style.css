@@ -164,9 +164,9 @@ slideDown
   animation-timing-function: ease;  
   -moz-animation-timing-function: ease; 
 
-  opacity: 1!important;
+  opacity: 1;
 
-  visibility: visible!important;  
+  visibility: visible !important;  
 
 }
 
