@@ -1,5 +1,7 @@
 (function($) {
 
+   $("#element").introLoader(); 
+   
    setTimeout(function(){
       $('#arrow').addClass('pulse');
    }, 400);
