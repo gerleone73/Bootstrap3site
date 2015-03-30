@@ -15,6 +15,8 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
 
 <link rel="stylesheet" href="css/style.css">
+
+
 	
 </head>
 
@@ -26,9 +28,9 @@
 
   <nav class ="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -38,17 +40,17 @@
         <a href="#home" class="navbar-brand">Wire_D</a>
       </div><!--End navbar header-->
 
-      <div class="navbar-collapse collapse">
+      <div class="navbar-collapse">
 
-      <a href="" id="downloadBtn" class="btn btn-default navbar-btn navbar-right" id="center">Download Now</a>
+        <a href="" id="downloadBtn" class="btn btn-default navbar-btn navbar-right" id="center">Download Now</a>
 
           <ul class="nav navbar-nav navbar-right text-center">
-             <li><a href="#home">Home</a></li>
-            <li><a href="#feedback">Feedback</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#faq">Faq</a> 
-            <li><a href="#contact">Contact Us</a></li> 
+             <li><a href="#home" class="smoothScroll HL">Home</a></li>
+            <li><a href="#feedback" class="smoothScroll HL">Feedback</a></li>
+            <li><a href="#gallery" class="smoothScroll HL">Gallery</a></li>
+            <li><a href="#features" class="smoothScroll HL">Features</a></li>
+            <li><a href="#faq" class="smoothScroll HL">Faq</a> 
+            <li><a href="#contact" class="smoothScroll HL">Contact Us</a></li> 
           </ul>
         </div>
       </div><!-- End Container-->
@@ -76,7 +78,7 @@
           <h2>Feedback.<small> Check out the Awesome Feedback</small></h2>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 img-parent">
             <img class="round" src="arman-ghosh.jpg">
             <blockquote>
               
@@ -84,7 +86,7 @@
               <footer>John doe</footer>
             </blockquote>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 img-parent">
             <img class="round" src="bermon-painter.jpg">
             <blockquote>
               
@@ -92,7 +94,7 @@
               <footer>John doe</footer>
             </blockquote>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 img-parent">
             <img class="round" src="brad-smith.jpg">
             <blockquote>
               
@@ -429,14 +431,25 @@
 
 </div>
 
+
+
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
+<!-- Smooth Scroll -->
+
+<script type="text/javascript" src="js/smoothscroll.js"></script>
+
 <script type="text/javascript">
+
+
   
   $('.navbar-collapse').click('li', function() {
+    if ($(window).width() < 770){
   $('.navbar-collapse').collapse('hide');
+}
+
 });
 
 </script>

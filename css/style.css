@@ -9,6 +9,14 @@ height:100%;
 background-color: whitesmoke;
 }
 
+.navbar{ 
+    background-image: none;
+}
+
+#my-navbar{
+  background: #2B1A22;
+}
+
 .bg{
   padding-top: 20px;
   padding-bottom:200px;
@@ -17,15 +25,24 @@ background-color: whitesmoke;
   padding-bottom: 2em;
 }
 
+.img-parent{
+  text-align: center;
+}
+
 .round{
   border-radius: 50%;
-  text-align: center;
-  margin: 0 auto;
+}
+
+blockquote{
+  text-align: left;
 }
 
 .navbar-inverse .navbar-brand{
-  color:#E4ECD7;
-  font-weight: 400;
+  color:linen;
+  font-weight: 800;
+  padding-left: 20px;
+  font-size: 1.7em;
+  letter-spacing: 0.05em;
 }
 
 .jumbotron {
@@ -60,7 +77,8 @@ blockquote{
 }
 
 #downloadBtn{
-  margin-left:1em;
+  margin-left:2.5em;
+  margin-right: 2em;
 }
 
 
