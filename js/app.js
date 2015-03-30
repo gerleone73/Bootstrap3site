@@ -1,7 +1,9 @@
 (function($) {
 
    $("#element").introLoader(); 
-   
+
+   $('.navbar-collapse').collapse('hide'); // here to see if will be default collapse
+
    setTimeout(function(){
       $('#arrow').addClass('pulse');
    }, 400);
