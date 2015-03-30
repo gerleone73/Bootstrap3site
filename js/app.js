@@ -1,6 +1,8 @@
 (function($) {
 
-  
+   setTimeout(function(){
+      $('#arrow').addClass('pulse');
+   }, 400);
 
  $('.navbar-collapse').click('li', function() {
     if ($(window).width() < 770){
