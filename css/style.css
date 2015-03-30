@@ -11,12 +11,17 @@ background-color: whitesmoke;
 font-family: "Apercu Mono Regular", 'Andale Mono', monospace;
 }
 
+.jumbotron h1{
+  font-size: 70px;
+  font-weight: 800;
+}
+
 .navbar{ 
     background-image: none;
 }
 
 #my-navbar{
-  background: #2B1A22;
+  background: #3B3B3B;
 }
 
 .bg{
@@ -48,14 +53,14 @@ blockquote{
 }
 
 .jumbotron {
-background-image: url("../train.jpg");
+background-image: url("../sea.jpg");
 no-repeat   center center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
 min-height:100%;
-color:linen;
+color:rgba(43,26,34);
 }
 
 .overlay{
