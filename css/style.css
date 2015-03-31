@@ -172,6 +172,29 @@ text-align: center;
 }
 
 /*
+  ========================================
+  Back to Top
+  ========================================
+*/
+
+
+
+
+a.back-to-top {
+  display: none;
+  width: 38px;
+  height: 38px;
+  text-indent: -9999px;
+  position: fixed;
+  z-index: 999;
+  right: 10px;
+  bottom: 10px;
+  background:whitesmoke url('../up-arrow.png') no-repeat center;
+  padding-top:50px;
+  border-radius: 3px;
+}
+
+/*
 ==============================================
 pulse
 ==============================================
