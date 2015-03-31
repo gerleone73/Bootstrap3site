@@ -63,7 +63,7 @@ no-repeat   center center;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-
+ 
 min-height:100%;
 min-width:100%;
 color:rgba(43,26,34);
@@ -77,12 +77,12 @@ z-index: -2;
 }
 
 .pattern{
-    background-image: url('../sea.jpg');
+    background-image: url('../sea2.png');
     min-width: 100%;
     min-height: 100%;
- 
+    opacity: 0.5;
     position: absolute;
-    top: -7em;
+    top: 0em;
     
 }
 

@@ -7,6 +7,11 @@
 
        $('.fader').fadeIn(1000);
 
+         setTimeout(function(){
+      $('.fx').addClass('pulse');
+
+   }, 400);
+
 
    $(window).scroll(function () {
 
@@ -44,10 +49,7 @@ $('a.back-to-top').click(function() {
 
    $('.navbar-collapse').collapse('hide'); // here to see if will be default collapse
 
-   setTimeout(function(){
-      $('.fx').addClass('pulse');
-
-   }, 400);
+ 
 
 
 
