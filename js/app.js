@@ -50,6 +50,7 @@ $('a.back-to-top').click(function() {
 
       $('.fader h1').addClass('pulse');
       $('.fader p').addClass('pulse');
+      $('.homebtn').addClass('pulse');
 
    }, 400);
 
