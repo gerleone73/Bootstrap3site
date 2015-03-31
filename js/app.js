@@ -10,13 +10,13 @@
    $(window).scroll(function () {
 
     if ($(this).scrollTop() > 200){
-    $('.fader').fadeOut('slow');
+    $('.fader').fadeOut(1000);
 
   }else{
-    $('.fader').fadeIn('slow');
+    $('.fader').fadeIn(1000);
   }
      if ($(this).scrollTop() > 600){
-    $('.navbar').fadeIn('slow');
+    $('.navbar').fadeIn(1000);
     
   }
 });
