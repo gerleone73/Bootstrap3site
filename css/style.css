@@ -71,6 +71,11 @@ z-index: -2;
 
 }
 
+
+.hide{
+  display:none;
+}
+
 .pattern{
     background-image: url('../sea.jpg');
     min-width: 100%;
@@ -394,6 +399,10 @@ pulse
 
 
 @media (max-width: 770px) {
+
+  .pattern{
+    display:none;
+  }
 
 #downloadBtn{
   display:none;
