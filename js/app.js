@@ -45,6 +45,7 @@ $('a.back-to-top').click(function() {
 
    setTimeout(function(){
       $('#arrow').addClass('pulse');
+      $('.fader h1').addClass('pulse')
    }, 400);
 
  $('.navbar-collapse').click('li', function() {
