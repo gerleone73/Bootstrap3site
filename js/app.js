@@ -3,7 +3,7 @@
 
 
    $("#element").introLoader(); 
-    
+
 
        $('.fader').fadeIn(1000);
 
@@ -46,8 +46,10 @@ $('a.back-to-top').click(function() {
 
    setTimeout(function(){
       $('#arrow').addClass('pulse');
+      $('.pattern').addClass('pulse');
 
       $('.fader h1').addClass('pulse');
+      $('.fader p').addClass('pulse');
 
    }, 400);
 
