@@ -45,12 +45,7 @@ $('a.back-to-top').click(function() {
    $('.navbar-collapse').collapse('hide'); // here to see if will be default collapse
 
    setTimeout(function(){
-      $('#arrow').addClass('pulse');
-      $('.pattern').addClass('pulse');
-
-      $('.fader h1').addClass('pulse');
-      $('.fader p').addClass('pulse');
-      $('.homebtn').addClass('pulse');
+      $('.fx').addClass('pulse');
 
    }, 400);
 
