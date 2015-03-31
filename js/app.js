@@ -2,6 +2,12 @@
 
    $("#element").introLoader(); 
 
+   $(window).scroll(function () {
+     if ($(this).scrollTop() > 600){
+    $('.navbar').show();
+  }
+});
+
    $('.navbar-collapse').collapse('hide'); // here to see if will be default collapse
 
    setTimeout(function(){

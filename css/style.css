@@ -84,7 +84,9 @@ blockquote p{
   padding-top: 20px;
 }
 
-
+.navbar{
+  display:none;
+}
 
 #downloadBtn{
   margin-left:2.5em;
