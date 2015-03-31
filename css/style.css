@@ -21,6 +21,7 @@ font-family: 'Inconsolata', "Apercu Mono Regular", 'Andale Mono', monospace;
 
 #my-navbar{
   background: #3B3B3B;
+  border:none;
 }
 
 .bg{

@@ -4,7 +4,7 @@
 
    $(window).scroll(function () {
      if ($(this).scrollTop() > 600){
-    $('.navbar').show();
+    $('.navbar').fadeIn();
   }
 });
 
