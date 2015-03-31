@@ -1,10 +1,23 @@
 (function($) {
 
+
+
    $("#element").introLoader(); 
 
+       $('.fader').fadeIn(1000);
+
+
    $(window).scroll(function () {
+
+    if ($(this).scrollTop() > 200){
+    $('.fader').fadeOut('slow');
+
+  }else{
+    $('.fader').fadeIn('slow');
+  }
      if ($(this).scrollTop() > 600){
-    $('.navbar').fadeIn();
+    $('.navbar').fadeIn('slow');
+    
   }
 });
 
