@@ -6,6 +6,7 @@
 
 
        $('.fader').fadeIn(1000);
+        $('.pattern').fadeIn(1000);
 
          setTimeout(function(){
       $('.fx').addClass('pulse');
@@ -17,11 +18,13 @@
 
     if ($(this).scrollTop() > 200){
     $('.fader').fadeOut(1000);
-    $('.fx').removeClass('pulse');
+    $('.pattern').removeClass('pulse');
+     $('.pattern').fadeOut('slow');
 
   }else{
     $('.fader').fadeIn(1000);
      $('.fx').addClass('pulse');
+     $('.pattern').fadeIn('slow');
   }
      if ($(this).scrollTop() > 600){
     $('.navbar').fadeIn(1000);
