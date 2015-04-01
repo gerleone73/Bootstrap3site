@@ -17,9 +17,11 @@
 
     if ($(this).scrollTop() > 200){
     $('.fader').fadeOut(1000);
+    $('.fx').removeClass('pulse');
 
   }else{
     $('.fader').fadeIn(1000);
+     $('.fx').addClass('pulse');
   }
      if ($(this).scrollTop() > 600){
     $('.navbar').fadeIn(1000);
