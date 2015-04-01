@@ -7,12 +7,9 @@
    animation: {
     name: 'counterLoader',
      options: { 
-      ease: "easeInOutCirc",
+      ease: "easeOutSine",
        style: 'dark',
-         delayBefore: 0,
-            exitTime: 300,
-            progbarTime: 700,
-            progbarDelayAfter: 400
+        animation:1000
         
       } 
     } 
