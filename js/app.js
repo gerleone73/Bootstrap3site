@@ -2,7 +2,23 @@
 
 
 
-   $("#element").introLoader(); 
+   $("#element").introLoader({
+
+   animation: {
+    name: 'doubleLoader',
+     options: { 
+      ease: "easeInOutCirc",
+       style: 'light',
+         delayBefore: 500,
+            exitTime: 300,
+            progbarTime: 700,
+            progbarDelayAfter: 400
+        
+      } 
+    } 
+  }); 
+
+
 
 
        $('.fader').fadeIn(1000);
