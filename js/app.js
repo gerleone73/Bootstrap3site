@@ -5,11 +5,11 @@
    $("#element").introLoader({
 
    animation: {
-    name: 'doubleLoader',
+    name: 'counterLoader',
      options: { 
       ease: "easeInOutCirc",
-       style: 'light',
-         delayBefore: 500,
+       style: 'dark',
+         delayBefore: 0,
             exitTime: 300,
             progbarTime: 700,
             progbarDelayAfter: 400
