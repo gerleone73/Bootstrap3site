@@ -183,14 +183,14 @@ min-height:100%;
 }
 
 #arrow{
-  font-size:38px;
+  font-size:34px;
   position: absolute;
   bottom:1em;
 width: 100%;
 text-align: center;
- color: whitesmoke;
+ color:whitesmoke;
+ }
 
-}
 
 
 .fader{
@@ -361,8 +361,8 @@ pulse
   animation-name: pulse;
   -webkit-animation-name: pulse;  
 
-  animation: pulse 3s infinite; 
-  -webkit-animation: pulse 3s infinite;
+  animation: pulse 4s infinite; 
+  -webkit-animation: pulse 4s infinite;
 
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
