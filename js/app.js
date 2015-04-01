@@ -5,14 +5,17 @@
    $("#element").introLoader({
 
    animation: {
-    name: 'counterLoader',
-     options: { 
-      ease: "easeOutSine",
-       style: 'dark',
-        animation:1000
-        
-      } 
-    } 
+        name: 'simpleLoader',
+        options: {
+            exitFx:'fadeOut',
+            ease: "linear",
+            style: 'dark',
+            delayBefore: 0, //delay time in milliseconds
+            exitTime: 300
+        }
+    },    
+
+    spinJs: {}
   }); 
 
 
