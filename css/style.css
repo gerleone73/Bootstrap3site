@@ -17,13 +17,13 @@ font-family: 'Inconsolata', "Apercu Mono Regular", 'Andale Mono', monospace;
 
 .jumbotron h1{
   font-size: 70px;
-  font-weight: 700;
+  font-weight: 100;
 }
 
 
 
 #my-navbar{
-  background: #3B3B3B;
+  background: #494848;
   border:none;
   display:none;
   z-index: 999;
@@ -51,7 +51,7 @@ blockquote{
 
 .navbar-inverse .navbar-brand{
   color:linen;
-  font-weight: 700;
+  font-weight: 100;
   padding-left: 20px;
   font-size: 1.7em;
   letter-spacing: 0.05em;

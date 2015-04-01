@@ -26,7 +26,7 @@
      $('.fx').addClass('pulse');
      $('.pattern').fadeIn('slow');
   }
-     if ($(this).scrollTop() > 600){
+     if ($(this).scrollTop() > 900){
     $('.navbar').fadeIn(1000);
     
   }
