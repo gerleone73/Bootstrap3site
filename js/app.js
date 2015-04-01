@@ -9,7 +9,7 @@
         options: {
             exitFx:'fadeOut',
             ease: "linear",
-            style: 'dark',
+            style: 'light',
             delayBefore: 0, //delay time in milliseconds
             exitTime: 300
         }
