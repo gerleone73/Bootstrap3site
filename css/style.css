@@ -312,9 +312,9 @@ slideDown
   -moz-animation-delay: 2.5s; /* Chrome, Safari, Opera */
     animation-delay: 2.5s;
 
- display:block;
-  visibility: visible;  
 
+  visibility: visible;  
+overflow-y:hidden;
 
 }
 
