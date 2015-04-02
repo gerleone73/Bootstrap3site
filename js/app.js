@@ -31,6 +31,7 @@
 
 
    $(window).scroll(function () {
+     $('.fx').addClass('pulse');
 
     if ($(this).scrollTop() > 100){
     $('.fader').fadeOut('slow');
