@@ -20,19 +20,16 @@ font-family: 'Inconsolata', "Apercu Mono Regular", 'Andale Mono', monospace;
   font-weight: 100;
 }
 
-ul.social{
+.social ul{
   list-style: none;
   margin:0;
-  padding-left: -40px!important;
+  padding: 20px 0 0;
 
 }
 
 .social li{
 display: inline;
 list-style-type: none;
-text-align: center;
-
-padding: 0;
 
 }
 
