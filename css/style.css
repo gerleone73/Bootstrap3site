@@ -76,6 +76,10 @@ blockquote{
   letter-spacing: 0.05em;
 }
 
+.introloader {
+  opacity: 0.5 !important;
+}
+
 .jumbotron {
 background-image: url("../sea.jpg");
 no-repeat   center center;
@@ -89,6 +93,7 @@ min-width:100%;
 color:rgba(43,26,34);
 z-index: -2;
 overflow-x:hidden;
+outline: 1px solid red !important;
 
 
 }
@@ -308,9 +313,9 @@ slideDown
 
   animation-timing-function: ease;  
   -moz-animation-timing-function: ease; 
-  -webkit-animation-delay: 2.5s;
-  -moz-animation-delay: 2.5s; /* Chrome, Safari, Opera */
-    animation-delay: 2.5s;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s; /* Chrome, Safari, Opera */
+    animation-delay: 0s;
 
 
   visibility: visible;  
