@@ -64,7 +64,7 @@ no-repeat   center center;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
- 
+background-attachment: fixed;
 min-height:100%;
 min-width:100%;
 color:rgba(43,26,34);
@@ -107,7 +107,7 @@ blockquote p{
 
 
 .centered {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   width:100%;
@@ -174,7 +174,7 @@ min-height:100%;
 
 #arrow{
   font-size:34px;
-  position: absolute;
+  position: fixed;
   bottom:1em;
 width: 100%;
 text-align: center;

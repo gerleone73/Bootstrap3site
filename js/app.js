@@ -32,8 +32,8 @@
 
    $(window).scroll(function () {
 
-    if ($(this).scrollTop() > 200){
-    $('.fader').fadeOut(1000);
+    if ($(this).scrollTop() > 100){
+    $('.fader').fadeOut('slow');
     $('.pattern').removeClass('pulse');
      $('.pattern').fadeOut('slow');
 
