@@ -83,12 +83,12 @@ no-repeat   center center;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-background-attachment: fixed;
 min-height:100%;
 min-width:100%;
 color:rgba(43,26,34);
 z-index: -2;
-
+display:none;
+visibility: hidden;
 overflow-x:hidden;
 
 }
@@ -313,6 +313,7 @@ slideDown
     animation-delay: .5s;
 
  overflow-y:hidden;
+ display:block !important;
 
   visibility: visible;  
 

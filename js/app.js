@@ -19,7 +19,7 @@
   }); 
 
 
-
+ $('.jumbotron').addClass('slideDown').css('background-attachment', 'fixed');
 
        $('.fader').fadeIn(1000);
         $('.pattern').fadeIn(1000);
