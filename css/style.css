@@ -20,6 +20,21 @@ font-family: 'Inconsolata', "Apercu Mono Regular", 'Andale Mono', monospace;
   font-weight: 100;
 }
 
+ul.social{
+  list-style: none;
+  margin:0;
+  padding-left: -40px!important;
+
+}
+
+.social li{
+display: inline;
+list-style-type: none;
+text-align: center;
+
+padding: 0;
+
+}
 
 
 #my-navbar{
