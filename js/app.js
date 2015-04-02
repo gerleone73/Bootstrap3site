@@ -1,6 +1,6 @@
 (function($) {
 
-
+ 
 
    $("#element").introLoader({
 
@@ -23,12 +23,14 @@
 
        
 
-         setTimeout(function(){
+    setTimeout(function(){
+      
       $('.fx').addClass('pulse');
       $('.fader').fadeIn(1000);
         $('.pattern').fadeIn(1000);
 
-   }, 1000);
+
+   }, 300);
 
 
    $(window).scroll(function () {
