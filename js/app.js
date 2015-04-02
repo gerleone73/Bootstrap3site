@@ -1,6 +1,9 @@
 (function($) {
 
- 
+   $(window).on('load', function() {
+    $('.jumbotron').addClass('slideDown');
+  });
+
 
    $("#element").introLoader({
 
@@ -11,14 +14,14 @@
             ease: "linear",
             style: 'light',
             delayBefore: 0, //delay time in milliseconds
-            exitTime: 300,
-      
-
+            exitTime: 300
         }
-    },    
+    },
 
     spinJs: {}
-  }); 
+  });
+
+
 
 
 

@@ -76,9 +76,6 @@ blockquote{
   letter-spacing: 0.05em;
 }
 
-.introloader {
-  opacity: 0.5 !important;
-}
 
 .jumbotron {
 background-image: url("../sea.jpg");
@@ -93,7 +90,7 @@ min-width:100%;
 color:rgba(43,26,34);
 z-index: -2;
 overflow-x:hidden;
-outline: 1px solid red !important;
+
 
 
 }
