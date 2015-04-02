@@ -88,8 +88,8 @@ min-height:100%;
 min-width:100%;
 color:rgba(43,26,34);
 z-index: -2;
-display:none;
 overflow-x:hidden;
+
 
 }
 
@@ -314,7 +314,7 @@ slideDown
 
  display:block;
   visibility: visible;  
-  overflow-y:hidden;
+
 
 }
 

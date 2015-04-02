@@ -24,6 +24,8 @@
        
 
     setTimeout(function(){
+
+   
       
       $('.fx').addClass('pulse');
       $('.fader').fadeIn(1000);
