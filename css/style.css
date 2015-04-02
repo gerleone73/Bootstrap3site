@@ -39,7 +39,7 @@ margin: 0 10px;
 
 a img.desaturate { -webkit-filter: grayscale(100%); filter: grayscale(100%); }
 
-a img.desaturate:hover { -moz-filter: grayscale(50%); -webkit-filter: grayscale(50%); filter: grayscale(50%); }
+a img.desaturate:hover { -moz-filter: grayscale(75%); -webkit-filter: grayscale(75%); filter: grayscale(75%); }
 
 #my-navbar{
   background: #494848;
