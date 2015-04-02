@@ -21,13 +21,14 @@
 
 
 
-       $('.fader').fadeIn(1000);
-        $('.pattern').fadeIn(1000);
+       
 
          setTimeout(function(){
       $('.fx').addClass('pulse');
+      $('.fader').fadeIn(1000);
+        $('.pattern').fadeIn(1000);
 
-   }, 400);
+   }, 1000);
 
 
    $(window).scroll(function () {
