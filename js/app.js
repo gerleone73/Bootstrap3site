@@ -11,7 +11,10 @@
             ease: "linear",
             style: 'light',
             delayBefore: 0, //delay time in milliseconds
-            exitTime: 300
+            exitTime: 300,
+            onBefore: function() { $( '.jumbotron' ).addClass( 'slideDown' ); 
+          }
+
         }
     },    
 
