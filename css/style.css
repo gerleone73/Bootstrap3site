@@ -312,7 +312,7 @@ slideDown
   -moz-animation-delay: .5s; /* Chrome, Safari, Opera */
     animation-delay: .5s;
 
- 
+ overflow-y:hidden;
 
   visibility: visible;  
 
