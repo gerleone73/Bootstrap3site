@@ -24,10 +24,9 @@
        $('.fader').fadeIn(1000);
         $('.pattern').fadeIn(1000);
 
-         setTimeout(function(){
       $('.fx').addClass('pulse');
 
-   }, 400);
+   
 
 
    $(window).scroll(function () {
