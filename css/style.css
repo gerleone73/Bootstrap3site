@@ -193,13 +193,14 @@ min-height:100%;
   visibility: hidden
 }
 
-.fa-angle-double-down{
+#arrow{
   font-size:34px;
   position: fixed;
   bottom:1em;
 width: 100%;
 text-align: center;
  color:whitesmoke;
+ left:0;
  }
 
 
