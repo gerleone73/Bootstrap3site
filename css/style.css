@@ -348,8 +348,8 @@ pulse
 ==============================================
 */
 
-/*
-.pulse{
+
+.pulsebtn{
   animation-name: pulse;
   -webkit-animation-name: pulse;  
 
@@ -391,7 +391,7 @@ pulse
     opacity: 0.7; 
   }     
 }
-*/
+
 
 .pulse {
   -webkit-animation-name: pulse;
