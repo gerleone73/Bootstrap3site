@@ -103,13 +103,13 @@ overflow-x:hidden;
 .pattern{
     background-image: url('../sea2.png');
     background-position: center;
-    min-width: 110%;
-    min-height: 110%;
+    width: 100%;
+    height: 100%;
     opacity: 0.5;
     position: absolute;
-    top:-5%;
-    left:-5%;
-    
+    top:0;
+    left:0;
+
     overflow-x:hidden;
     display:none;
 }
