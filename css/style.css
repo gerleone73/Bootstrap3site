@@ -141,9 +141,9 @@ blockquote p{
 }
 
 h1, .navbar-brand{
-  font-family: 'Oswald', sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.1em;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.05em;
 }
 
 h3{
@@ -202,29 +202,30 @@ text-align: center;
  color:whitesmoke;
  padding: 2px 0;
  left:0;
- background-color: rgba(51,51,51, 1); 
-  -webkit-transition: background-color 200ms ease-in-out;
+ background-color: #333;
+   -webkit-transition: background-color 200ms ease-in-out;
   -moz-transition: background-color 200ms ease-in-out;
   transition: background-color 200ms ease-in-out;
- }
+}
 
- #arrow:hover{
-  background-color: rgba(0,0,0, 1);
- }
+#arrow:hover{
+  background-color: #000;
+}
+
 
 .fa-angle-down{
     display: inline-block;
-  border: 2px solid rgba(255,255,255,0.4);
+  border: 2px solid rgba(255,255,255,0.7);
+
   border-radius: 50%;
   text-align: center;
   position: relative;
   width: 34px;
   height: 34px;
   vertical-align: middle;
-  -webkit-transition: border-color 200ms ease-in-out;
-  -moz-transition: border-color 200ms ease-in-out;
-  transition: border-color 200ms ease-in-out;
+
 }
+
 
 
 .fader{
@@ -369,14 +370,14 @@ overflow-y:hidden;
 pulse
 ==============================================
 */
-/*
 
-.pulse{
-  animation-name: pulse;
-  -webkit-animation-name: pulse;  
 
-  animation: pulse 4s infinite; 
-  -webkit-animation: pulse 4s infinite;
+.pulse2{
+  animation-name: pulse2;
+  -webkit-animation-name: pulse2;  
+
+  animation: pulse2 4s infinite; 
+  -webkit-animation: pulse2 4s infinite;
 
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
@@ -384,7 +385,7 @@ pulse
 
 }
 
-@keyframes pulse {
+@keyframes pulse2 {
   0% {
     transform: scale(0.9);
     opacity: 0.7;   
@@ -399,7 +400,7 @@ pulse
   }     
 }
 
-@-webkit-keyframes pulse {
+@-webkit-keyframes pulse2 {
   0% {
     -webkit-transform: scale(0.95);
     opacity: 0.7;   
@@ -414,7 +415,7 @@ pulse
   }     
 }
 
-*/
+
 .pulse {
   -webkit-animation-name: pulse;
   -webkit-animation: pulse 4s infinite;
