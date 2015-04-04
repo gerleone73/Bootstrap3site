@@ -44,7 +44,7 @@
      $('.fx').addClass('pulse');
 
     if ($(this).scrollTop() > 100){
-    $('.fader').fadeOut('slow');
+    $('.fader').fadeOut('fast');
     $('.pattern').removeClass('pulse');
      $('.pattern').fadeOut('slow');
 
