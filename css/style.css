@@ -372,12 +372,12 @@ pulse
 */
 
 
-.pulse2{
-  animation-name: pulse2;
-  -webkit-animation-name: pulse2;  
+.pulsesine{
+  animation-name: pulsesine;
+  -webkit-animation-name: pulsesine;  
 
-  animation: pulse2 4s infinite; 
-  -webkit-animation: pulse2 4s infinite;
+  animation: pulsesine 4s infinite; 
+  -webkit-animation: pulsesine 4s infinite;
 
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
@@ -385,7 +385,7 @@ pulse
 
 }
 
-@keyframes pulse2 {
+@keyframes pulsesine {
   0% {
     transform: scale(0.9);
     opacity: 0.7;   
@@ -400,7 +400,7 @@ pulse
   }     
 }
 
-@-webkit-keyframes pulse2 {
+@-webkit-keyframes pulsesine {
   0% {
     -webkit-transform: scale(0.95);
     opacity: 0.7;   
@@ -418,7 +418,7 @@ pulse
 
 .pulse {
   -webkit-animation-name: pulse;
-  -webkit-animation: pulse 4s infinite;
+  -webkit-animation: pulse 7s infinite;
   position: absolute;
   top: 0;
   left: 0;
